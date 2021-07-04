@@ -18,3 +18,5 @@ end
 group :development do
   gem 'web-console', '~> 2.0'
 end
+
+gem "byebug", "~> 11.1", :groups => [:development, :test]
